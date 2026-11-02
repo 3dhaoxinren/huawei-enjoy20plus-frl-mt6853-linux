@@ -6,3 +6,6 @@ build/
 *.ext4
 *.ext4.gz
 private-audit/
+frl-private-export-*/
+*.private.tar.gz
+*.partial
