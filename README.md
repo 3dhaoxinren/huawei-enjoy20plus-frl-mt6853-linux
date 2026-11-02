@@ -4,6 +4,8 @@
 
 在华为畅享 20 Plus 上复用厂商内核与必要硬件运行时，运行原生 ARM64 Linux、轻量服务器管理功能和 Mali GPU 加速本地监控面板。不是 Android 内的 proot 桌面，也不是适配所有 MT6853 手机的通刷 ROM。
 
+> **刷写前提：必须先完成 Bootloader 解锁，才能刷入本项目镜像。未解锁设备不能直接刷入。请先备份本机数据及原始分区镜像，再按对应机型的配套流程操作。**
+
 ## 下载与阅读
 
 - [发布附件 / Releases](https://github.com/3dhaoxinren/huawei-enjoy20plus-frl-mt6853-linux/releases)：已上传的镜像和源码包以附件清单为准。
@@ -15,7 +17,7 @@
 - [首次发布范围](docs/PUBLICATION.md)
 - [第三方组件](THIRD_PARTY_NOTICES.md)
 
-**本机项目已有可直接刷写的移植版本。** 当前 GitHub Releases 已上传两份启动镜像、源码压缩包及校验清单；完整新版 rootfs 仍待上传。请区分本机完整移植环境与当前已公开的附件范围，下载时以 Release 清单和配套说明为准。
+**本机项目已有可在 Bootloader 解锁后直接刷写的移植版本。** 当前 GitHub Releases 已上传两份启动镜像、源码压缩包及校验清单；完整新版 rootfs 仍待上传。请区分本机完整移植环境与当前已公开的附件范围，下载时以 Release 清单和配套说明为准。
 
 ## 已整理源码
 

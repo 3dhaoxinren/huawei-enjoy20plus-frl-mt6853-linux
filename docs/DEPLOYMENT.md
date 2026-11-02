@@ -1,5 +1,9 @@
 # 正式发布工具与启动校验
 
+## 刷写前置条件
+
+**必须先完成目标手机的 Bootloader 解锁，才能刷入本项目镜像。未解锁设备不能直接刷入。** 先备份本机数据与原始分区镜像，核对华为畅享 20 Plus / FRL 机型、镜像 SHA256 和配套文件，再进入刷写流程。下述 bundle/deploy 是已运行 Linux 内的发布工具，不能代替 Bootloader 解锁。
+
 `release-tools/bundle.py` 和 `release-tools/deploy.py` 为现有受保护安装流程的源码快照，使用 Python 标准库，没有额外本地模板模块。deploy.py 在导入/执行时就检查 root、PID 1、设备 compatible 和参数，不能当普通库在主机导入。
 
 ## 运行系统的文件更新
