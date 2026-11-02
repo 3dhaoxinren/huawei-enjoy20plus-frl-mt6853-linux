@@ -1,0 +1,39 @@
+{
+  "status": "system-image-20261102",
+  "input_sha256": "9cbace6d2ccf96281e1bc6e1fc990279670428e9a801d755eb4966924d9f2831",
+  "source_unchanged": true,
+  "raw_image_bytes": 4294967296,
+  "raw_image_sha256": "82138a385f2ff47a5dcce37d1bf0451c01444c2188e19e553d60e2de02fecb53",
+  "filesystem_uuid": "46f12330-d07b-4a0c-90c0-fa0eb1ca40e2",
+  "gzip_bytes": 367633520,
+  "artifact_sha256": {
+    "rootfs-v3.ext4.gz": "42ed9e38e77739b7658744ac65947dc7ad1e6efe80a877302ff7c19abd782b5a",
+    "v15-deployed.flag": "fd2084102799007d658ea8dfc3fc207774393d6274bce2eab725ffd6b6dcf75f"
+  },
+  "payload_files": 140,
+  "removed_tracked_files": [
+    "usr/lib/frl/dafeiyu-launch.py",
+    "usr/lib/frl/dafeiyu-storage.py"
+  ],
+  "changed_or_new_tracked_files": [
+    "etc/frl/sshd_config",
+    "etc/frl/sv/apps/run",
+    "usr/lib/frl/release-firstboot.py",
+    "usr/lib/frl/root-boot.sh"
+  ],
+  "firstboot_tests": 8,
+  "image_readback_members": 33775,
+  "readback_content_ownership_modes_xattrs_match": true,
+  "ext4_gate_output": "FRL_EXT4_VALID uuid=46f12330d07b4a0c90c0fa0eb1ca40e2 mode=staged state=1 features=3c/242/46b",
+  "e2fsck_passed": true,
+  "compressed_roundtrip_passed": true,
+  "device_boot_tested": false,
+  "requires_original_compatible_super": true,
+  "requires_unlocked_bootloader": true,
+  "known_identity_cleanup_and_static_scan_passed": true,
+  "integration_report": "INTEGRATION-TESTS.json",
+  "static_privacy_report": "PRIVACY-REVIEW.json",
+  "license_inventory": "third-party-notices release attachment",
+  "third_party_licenses_not_relicensed_as_mit": true,
+  "independent_vendor_redistribution_rights_verification": false
+}

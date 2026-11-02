@@ -1,0 +1,1885 @@
+{
+  "python_version": "3.13.18",
+  "python_license_files": [
+    {
+      "path": "lib/python3.13/LICENSE.txt",
+      "sha256": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/LICENSE.txt",
+      "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/tomli/LICENSE",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/rich/LICENSE",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/pygments/LICENSE",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/distro/LICENSE",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/packaging/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/requests/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/pkg_resources/LICENSE",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/tomli_w/LICENSE",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/resolvelib/LICENSE",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/pyproject_hooks/LICENSE",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/msgpack/COPYING",
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/certifi/LICENSE",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/platformdirs/LICENSE",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip-26.2.2.dist-info/licenses/src/pip/_vendor/truststore/LICENSE",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/tomli/LICENSE",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/rich/LICENSE",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/pygments/LICENSE",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/distro/LICENSE",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/distlib/LICENSE.txt",
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/packaging/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/packaging/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/packaging/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/requests/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/cachecontrol/LICENSE.txt",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/pkg_resources/LICENSE",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/tomli_w/LICENSE",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/urllib3/LICENSE.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/idna/LICENSE.md",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/resolvelib/LICENSE",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/LICENSE",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/msgpack/COPYING",
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/certifi/LICENSE",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/platformdirs/LICENSE",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+    },
+    {
+      "path": "lib/python3.13/site-packages/pip/_vendor/truststore/LICENSE",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca"
+    }
+  ],
+  "python_primary_license": "Python Software Foundation License Version 2 plus included third-party notices",
+  "python_upstream": "https://www.python.org/downloads/source/",
+  "unchanged_vendor_files": [
+    {
+      "path": "opt/frl-vendor/libfrlprops.so",
+      "bytes": 6000,
+      "sha256": "819b2ef6123d91678a2119f4a030fd176c9085dd7dc47d7b966b2ea20aceb5d0",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_cfg_90hz6885.bin",
+      "bytes": 1005,
+      "sha256": "f591c97a0a411a871724caf264fb918107c518beaaf5640dd3864915129561a2",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc2_0_ram_bt_3d_1_hdr.bin",
+      "bytes": 734044,
+      "sha256": "406baaa0b235d136530958246f66b234f40b63e0b6b102ecd1c061d2b015702d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_cfg_6853v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc2_0_ram_bt_3c_1_hdr.bin",
+      "bytes": 732924,
+      "sha256": "ca9bc386abdb2511541126230a65ecd17553eefd2f1aae0e8133c3633010987e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/YOR_txpowerctrl.cfg",
+      "bytes": 155,
+      "sha256": "30701499a94526c912ae145c17e47df26cb686cef78636dd5bc95b7e0d1bafe8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9896s_cfg_6893v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_firmware_6885b0.bin",
+      "bytes": 88320,
+      "sha256": "51c67e5c11327ba6edc1cd1ee61d784b2982deee1908a928b288574a622d9ed0",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/WIFI_RAM_CODE_soc2_0_3d_1.bin",
+      "bytes": 751384,
+      "sha256": "2cd9c764918b14da34989775e22d1f770e033965fbf0c7b27a7c5ed9e72f889b",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9896s_firmware_6873v00.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/FT_txpowerctrl.cfg",
+      "bytes": 203,
+      "sha256": "d77e1d6388a96cccd64a28214ff71bd66d380055e75e1f35917030f8d294aab0",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9896s_firmware_6853v01.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/KKG_txpowerctrl.cfg",
+      "bytes": 180,
+      "sha256": "3b791c722a552ecbd34c8433fb4d359b3853d2480bcc1894b57f848cd1c45f0f",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc3_0_ram_mcu_1b_1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "a0994af83dee2b82361e4ee3d9ba8634c77b94ef6f4515ad2f2121d1f1beee8e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/fm_cust.cfg",
+      "bytes": 304,
+      "sha256": "0f24efadab3d3e8286774cb50495f65d26ed96b280d9d684f54fdd1d4f6c72d7",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/mt6635_fm_v1_coeff.bin",
+      "bytes": 1092,
+      "sha256": "d32f4a16b35f950ed1a57f2ae88f77ac4b5674d5c4210b65f6fe7912901fd8db",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc2_0_ram_wifi_3d_1_hdr.bin",
+      "bytes": 249124,
+      "sha256": "21e1a96b65d3b13c150a2ba56a7f6e86c0e3aaef345863879fb2583ed3ed2aae",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc2_0_ram_wifi_3c_1_hdr.bin",
+      "bytes": 249932,
+      "sha256": "4b82e7f5a0736ce286dfcbd5ef7865e614e7f26a7e99cb081848ee51483874b8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt1151_default_firmware2.img",
+      "bytes": 63616,
+      "sha256": "d2a6e1c2e1e350d940fad41991900fcfc4c81b3e786068560fe4f554602c3688",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/DM_txpowerctrl.cfg",
+      "bytes": 178,
+      "sha256": "1f9e53f1de41491d561d28c451de2dee01487254c825ec170d9155a133b8059b",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/WMT_SOC.cfg",
+      "bytes": 195,
+      "sha256": "8ecfca7e20571f81397e32d91014dc9ee796caa9ab4ee9e11d5ba2c2aae81f01",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/CND5G_wifi.cfg",
+      "bytes": 96,
+      "sha256": "85bc14032f769cec92bf4f95f7e47efc0045749c2bacf45e482afbe92caabc9e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_cfg_6885v9c.bin",
+      "bytes": 873,
+      "sha256": "77a03b31926fb57191be17822a4534f5d8ddae10b192d20830202b3c6cbf3aba",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/TCXOWMT_SOC.cfg",
+      "bytes": 195,
+      "sha256": "86b2cd2ba75e7fbe9e4178979bd470ac69fb9e47abe15f04f6424845c986f65e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/ALA5G_wifi.cfg",
+      "bytes": 112,
+      "sha256": "aedc40981a064c8be09164a20abb80c3769ad86b5e72809eebb0e6f9d310415d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/WN_txpowerctrl.cfg",
+      "bytes": 178,
+      "sha256": "da716d95067b03abaea2eb9bf6c272bb51060b40c3292e4853c758616f74184d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/default_txpowerctrl.cfg",
+      "bytes": 46,
+      "sha256": "af88c9f8a2ef8587e77f41502149a40a2a556c2ea38ed58a47d6aa542db99a97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/JSC5G_wifi.cfg",
+      "bytes": 96,
+      "sha256": "2022a69a2dadad0a967829df3125f755c6af056837b1dc775f0259327878387c",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_cfg_6785v99.bin",
+      "bytes": 873,
+      "sha256": "5c14a8a09801710be55b04a01dde4666567b7c22d8a2d5eb1393b973d362ad89",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/WIFI_RAM_CODE_soc2_0_3c_1.bin",
+      "bytes": 760568,
+      "sha256": "4e2b75e0c6707e88d2835a8cdca88b700e1ba3011040b8fe32d56d38a51a6039",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_firmware_6893v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/mt6631_fm_v1_patch.bin",
+      "bytes": 1028,
+      "sha256": "ba35c74d26660729caf83b41a567e700f633b6c99384dfa6cbb3c17ceb767e26",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/TT_txpowerctrl.cfg",
+      "bytes": 125,
+      "sha256": "f734aa3d5c089ab410f0ffdcd734f1a09d1e244e67ace8890316a49e11996853",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9896s_cfg_6873v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_cfg_6893v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_cfg_6885v1.bin",
+      "bytes": 873,
+      "sha256": "26754767372ff7c68a22f768546a4369b834910f69f86329e5ecfbee5e998545",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/NTO_wifi.cfg",
+      "bytes": 96,
+      "sha256": "e30582f0d139069ca24dbf30e0dce7f41045a889c59f3f8a1772722cd6cfb12a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_firmware_6885a1.bin",
+      "bytes": 88320,
+      "sha256": "c8957f0d8ff98950ae4f29b1852b131c18aa5f6993daa9a2d2b125c95ec7c5a8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_cfg_6885v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc2_0_patch_mcu_3d_1_hdr.bin",
+      "bytes": 19982,
+      "sha256": "b1529e7ebd0cfeb237d2969c7514ec1e4ed9834c7c2f877307c2ce0f36e94cc9",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_cfg_gt9885v1.bin",
+      "bytes": 923,
+      "sha256": "d7ed5b81da7dca7f4116051a634b10da357de632f75d656464d0dc758e1dbf22",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/NTO_5G_txpowerctrl.cfg",
+      "bytes": 44,
+      "sha256": "872452282ee8fafdf55a5f2fc3a3a265c665d22fafa568e51af423a17a5c6522",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/NTN_5G_txpowerctrl.cfg",
+      "bytes": 46,
+      "sha256": "85325310bc6fa35efa13120a2b194040e9394919099ea1b877f0791eb3f63bca",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_firmware_6885v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/WMT_STEP.cfg",
+      "bytes": 67652,
+      "sha256": "3f11d79c41dccd7693871876b57f3d628aea79e84d1594521227072a8fd1f250",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc2_0_patch_mcu_3c_1_hdr.bin",
+      "bytes": 17374,
+      "sha256": "3ef8c7e19ba926d4853fba971517835a728662b28b0d2787e8c5a9597c6a1685",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc2_0_ram_mcu_3c_1_hdr.bin",
+      "bytes": 90460,
+      "sha256": "36388eb69f9465a597bc65f4aa90fb5231804e61809a736b1afa5ea023a9d546",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9896s_cfg_6853v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_firmware_6885af.bin",
+      "bytes": 88320,
+      "sha256": "7a271e1f681193fc9854a3608638b0f7f444d00bcca6a4ef15f383853f71b760",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/TS_txpowerctrl.cfg",
+      "bytes": 125,
+      "sha256": "f734aa3d5c089ab410f0ffdcd734f1a09d1e244e67ace8890316a49e11996853",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_firmware_6885b1.bin",
+      "bytes": 88320,
+      "sha256": "f4b56f7908775b352bb06df18d8aed2d18377e3297e2242eff108830a761763d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_firmware_6785ae.bin",
+      "bytes": 88320,
+      "sha256": "4dee9ecbcbacbb3965c3e8cf2b01dd975ce9ed370f5c71eac9e7d2d5666d2840",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/mt6635_fm_v1_patch.bin",
+      "bytes": 1028,
+      "sha256": "ba35c74d26660729caf83b41a567e700f633b6c99384dfa6cbb3c17ceb767e26",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9896s_firmware_6893v01.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/CHL_5G_txpowerctrl.cfg",
+      "bytes": 1163,
+      "sha256": "91eca528cfc82e5d3336c4687ace584ed3bd079eadbd3881664721abfa55a661",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc3_0_ram_bt_1b_1_hdr.bin",
+      "bytes": 668640,
+      "sha256": "eb71cba075b9f2d3e494d23c81144c36e2542f0f0cd3be19355eae3d0c7bdb1d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc3_0_ram_bt_1_1_hdr.bin",
+      "bytes": 668496,
+      "sha256": "6e083c3e418447e26158de91f17c7757986c5f4d1433fa9a6b8f6c97ee074101",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc3_0_ram_mcu_1_1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "83fd95934b74b2cff9a44377ac78e9d83aa60e3b00ffea1fd09f300a67b9ed95",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc2_0_ram_mcu_3d_1_hdr.bin",
+      "bytes": 89980,
+      "sha256": "9b00b982a8c1c7ab357a9bb2985d7f69210a9c892caba972555de77b5ab3e416",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/NTN_wifi.cfg",
+      "bytes": 96,
+      "sha256": "e30582f0d139069ca24dbf30e0dce7f41045a889c59f3f8a1772722cd6cfb12a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "83fd95934b74b2cff9a44377ac78e9d83aa60e3b00ffea1fd09f300a67b9ed95",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/mt6631_fm_v1_coeff.bin",
+      "bytes": 1092,
+      "sha256": "d32f4a16b35f950ed1a57f2ae88f77ac4b5674d5c4210b65f6fe7912901fd8db",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/gt9886_firmware_6853v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/FRL5G_wifi.cfg",
+      "bytes": 94,
+      "sha256": "e0f2b92ce4f7743a707766771321728318bc3d2ff4d57af9a1a4db4fa4a8014d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/firmware/BT_FW.cfg",
+      "bytes": 410,
+      "sha256": "e018d7b8153af454d7e5c51626d584582904ffc5ba2bd8edb5d2a1ed27124b67",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/bin/wmt_launcher",
+      "bytes": 37128,
+      "sha256": "5fb83bf4823be84e9640cfcf5256489cedb22e4cbccaa5d11a92818655903b8e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/vendor/bin/wmt_loader",
+      "bytes": 15680,
+      "sha256": "db5688f45e6943ad36dbff3f01a3d641dd3e27150e8dce462365c25e14b788c9",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/bin/linker64",
+      "bytes": 1621560,
+      "sha256": "357df28ba3fd515369e6d4d881294a783725b79bb5d9761537f46b8da7d6b448",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/lib64/libcutils.so",
+      "bytes": 82792,
+      "sha256": "2fe18ff8f6f6af3e6c02ea3ebf8d610bc82166c9d5235dfd0e96af6cc4a0416c",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/lib64/ld-android.so",
+      "bytes": 9624,
+      "sha256": "e78d947d12322158b7b9654a1ba7e56abafefd0f51bbf9798e798dbb1d2a9faf",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/lib64/libc++.so",
+      "bytes": 841864,
+      "sha256": "3774489cb50c39056582a19f1608a618949ae52ae2d22d7d3fda03e4c43144dc",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/lib64/libdl.so",
+      "bytes": 14016,
+      "sha256": "81760ef41a6b6ae91101ed98a77e6bc0d9d589d07342ddd7f51cc80908699bb4",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/lib64/liblog.so",
+      "bytes": 105968,
+      "sha256": "9e7326dbe9bc70e18def7938571b2545f09e44af527675aebc840df5805b47e5",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/lib64/libbase.so",
+      "bytes": 83552,
+      "sha256": "b09442d19f7f838047cc7f6eb84c6e6b84d330fc221dd535e9b00929cbc6251a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/lib64/libm.so",
+      "bytes": 229360,
+      "sha256": "57391f1ac0850c6d6dbe7100dc48c596c90f7d194361ed9a2b952754cd9c8f0e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/system/lib64/libc.so",
+      "bytes": 1136552,
+      "sha256": "14007af8d69756469b257ddcf933f3cd2324b19128dd985ae9d446870ab57f4b",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_cfg_90hz6885.bin",
+      "bytes": 1005,
+      "sha256": "f591c97a0a411a871724caf264fb918107c518beaaf5640dd3864915129561a2",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc2_0_ram_bt_3d_1_hdr.bin",
+      "bytes": 734044,
+      "sha256": "406baaa0b235d136530958246f66b234f40b63e0b6b102ecd1c061d2b015702d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_cfg_6853v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc2_0_ram_bt_3c_1_hdr.bin",
+      "bytes": 732924,
+      "sha256": "ca9bc386abdb2511541126230a65ecd17553eefd2f1aae0e8133c3633010987e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/YOR_txpowerctrl.cfg",
+      "bytes": 155,
+      "sha256": "30701499a94526c912ae145c17e47df26cb686cef78636dd5bc95b7e0d1bafe8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9896s_cfg_6893v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_firmware_6885b0.bin",
+      "bytes": 88320,
+      "sha256": "51c67e5c11327ba6edc1cd1ee61d784b2982deee1908a928b288574a622d9ed0",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/WIFI_RAM_CODE_soc2_0_3d_1.bin",
+      "bytes": 751384,
+      "sha256": "2cd9c764918b14da34989775e22d1f770e033965fbf0c7b27a7c5ed9e72f889b",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9896s_firmware_6873v00.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/FT_txpowerctrl.cfg",
+      "bytes": 203,
+      "sha256": "d77e1d6388a96cccd64a28214ff71bd66d380055e75e1f35917030f8d294aab0",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9896s_firmware_6853v01.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/KKG_txpowerctrl.cfg",
+      "bytes": 180,
+      "sha256": "3b791c722a552ecbd34c8433fb4d359b3853d2480bcc1894b57f848cd1c45f0f",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc3_0_ram_mcu_1b_1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "a0994af83dee2b82361e4ee3d9ba8634c77b94ef6f4515ad2f2121d1f1beee8e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/fm_cust.cfg",
+      "bytes": 304,
+      "sha256": "0f24efadab3d3e8286774cb50495f65d26ed96b280d9d684f54fdd1d4f6c72d7",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/mt6635_fm_v1_coeff.bin",
+      "bytes": 1092,
+      "sha256": "d32f4a16b35f950ed1a57f2ae88f77ac4b5674d5c4210b65f6fe7912901fd8db",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc2_0_ram_wifi_3d_1_hdr.bin",
+      "bytes": 249124,
+      "sha256": "21e1a96b65d3b13c150a2ba56a7f6e86c0e3aaef345863879fb2583ed3ed2aae",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc2_0_ram_wifi_3c_1_hdr.bin",
+      "bytes": 249932,
+      "sha256": "4b82e7f5a0736ce286dfcbd5ef7865e614e7f26a7e99cb081848ee51483874b8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt1151_default_firmware2.img",
+      "bytes": 63616,
+      "sha256": "d2a6e1c2e1e350d940fad41991900fcfc4c81b3e786068560fe4f554602c3688",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/DM_txpowerctrl.cfg",
+      "bytes": 178,
+      "sha256": "1f9e53f1de41491d561d28c451de2dee01487254c825ec170d9155a133b8059b",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/WMT_SOC.cfg",
+      "bytes": 195,
+      "sha256": "8ecfca7e20571f81397e32d91014dc9ee796caa9ab4ee9e11d5ba2c2aae81f01",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/CND5G_wifi.cfg",
+      "bytes": 96,
+      "sha256": "85bc14032f769cec92bf4f95f7e47efc0045749c2bacf45e482afbe92caabc9e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_cfg_6885v9c.bin",
+      "bytes": 873,
+      "sha256": "77a03b31926fb57191be17822a4534f5d8ddae10b192d20830202b3c6cbf3aba",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/TCXOWMT_SOC.cfg",
+      "bytes": 195,
+      "sha256": "86b2cd2ba75e7fbe9e4178979bd470ac69fb9e47abe15f04f6424845c986f65e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/ALA5G_wifi.cfg",
+      "bytes": 112,
+      "sha256": "aedc40981a064c8be09164a20abb80c3769ad86b5e72809eebb0e6f9d310415d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/WN_txpowerctrl.cfg",
+      "bytes": 178,
+      "sha256": "da716d95067b03abaea2eb9bf6c272bb51060b40c3292e4853c758616f74184d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/default_txpowerctrl.cfg",
+      "bytes": 46,
+      "sha256": "af88c9f8a2ef8587e77f41502149a40a2a556c2ea38ed58a47d6aa542db99a97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/JSC5G_wifi.cfg",
+      "bytes": 96,
+      "sha256": "2022a69a2dadad0a967829df3125f755c6af056837b1dc775f0259327878387c",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_cfg_6785v99.bin",
+      "bytes": 873,
+      "sha256": "5c14a8a09801710be55b04a01dde4666567b7c22d8a2d5eb1393b973d362ad89",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/WIFI_RAM_CODE_soc2_0_3c_1.bin",
+      "bytes": 760568,
+      "sha256": "4e2b75e0c6707e88d2835a8cdca88b700e1ba3011040b8fe32d56d38a51a6039",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_firmware_6893v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/mt6631_fm_v1_patch.bin",
+      "bytes": 1028,
+      "sha256": "ba35c74d26660729caf83b41a567e700f633b6c99384dfa6cbb3c17ceb767e26",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/TT_txpowerctrl.cfg",
+      "bytes": 125,
+      "sha256": "f734aa3d5c089ab410f0ffdcd734f1a09d1e244e67ace8890316a49e11996853",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9896s_cfg_6873v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_cfg_6893v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_cfg_6885v1.bin",
+      "bytes": 873,
+      "sha256": "26754767372ff7c68a22f768546a4369b834910f69f86329e5ecfbee5e998545",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/NTO_wifi.cfg",
+      "bytes": 96,
+      "sha256": "e30582f0d139069ca24dbf30e0dce7f41045a889c59f3f8a1772722cd6cfb12a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_firmware_6885a1.bin",
+      "bytes": 88320,
+      "sha256": "c8957f0d8ff98950ae4f29b1852b131c18aa5f6993daa9a2d2b125c95ec7c5a8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_cfg_6885v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc2_0_patch_mcu_3d_1_hdr.bin",
+      "bytes": 19982,
+      "sha256": "b1529e7ebd0cfeb237d2969c7514ec1e4ed9834c7c2f877307c2ce0f36e94cc9",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_cfg_gt9885v1.bin",
+      "bytes": 923,
+      "sha256": "d7ed5b81da7dca7f4116051a634b10da357de632f75d656464d0dc758e1dbf22",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/NTO_5G_txpowerctrl.cfg",
+      "bytes": 44,
+      "sha256": "872452282ee8fafdf55a5f2fc3a3a265c665d22fafa568e51af423a17a5c6522",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/NTN_5G_txpowerctrl.cfg",
+      "bytes": 46,
+      "sha256": "85325310bc6fa35efa13120a2b194040e9394919099ea1b877f0791eb3f63bca",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_firmware_6885v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/WMT_STEP.cfg",
+      "bytes": 67652,
+      "sha256": "3f11d79c41dccd7693871876b57f3d628aea79e84d1594521227072a8fd1f250",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc2_0_patch_mcu_3c_1_hdr.bin",
+      "bytes": 17374,
+      "sha256": "3ef8c7e19ba926d4853fba971517835a728662b28b0d2787e8c5a9597c6a1685",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc2_0_ram_mcu_3c_1_hdr.bin",
+      "bytes": 90460,
+      "sha256": "36388eb69f9465a597bc65f4aa90fb5231804e61809a736b1afa5ea023a9d546",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9896s_cfg_6853v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_firmware_6885af.bin",
+      "bytes": 88320,
+      "sha256": "7a271e1f681193fc9854a3608638b0f7f444d00bcca6a4ef15f383853f71b760",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/TS_txpowerctrl.cfg",
+      "bytes": 125,
+      "sha256": "f734aa3d5c089ab410f0ffdcd734f1a09d1e244e67ace8890316a49e11996853",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_firmware_6885b1.bin",
+      "bytes": 88320,
+      "sha256": "f4b56f7908775b352bb06df18d8aed2d18377e3297e2242eff108830a761763d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_firmware_6785ae.bin",
+      "bytes": 88320,
+      "sha256": "4dee9ecbcbacbb3965c3e8cf2b01dd975ce9ed370f5c71eac9e7d2d5666d2840",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/mt6635_fm_v1_patch.bin",
+      "bytes": 1028,
+      "sha256": "ba35c74d26660729caf83b41a567e700f633b6c99384dfa6cbb3c17ceb767e26",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9896s_firmware_6893v01.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/CHL_5G_txpowerctrl.cfg",
+      "bytes": 1163,
+      "sha256": "91eca528cfc82e5d3336c4687ace584ed3bd079eadbd3881664721abfa55a661",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc3_0_ram_bt_1b_1_hdr.bin",
+      "bytes": 668640,
+      "sha256": "eb71cba075b9f2d3e494d23c81144c36e2542f0f0cd3be19355eae3d0c7bdb1d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc3_0_ram_bt_1_1_hdr.bin",
+      "bytes": 668496,
+      "sha256": "6e083c3e418447e26158de91f17c7757986c5f4d1433fa9a6b8f6c97ee074101",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc3_0_ram_mcu_1_1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "83fd95934b74b2cff9a44377ac78e9d83aa60e3b00ffea1fd09f300a67b9ed95",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc2_0_ram_mcu_3d_1_hdr.bin",
+      "bytes": 89980,
+      "sha256": "9b00b982a8c1c7ab357a9bb2985d7f69210a9c892caba972555de77b5ab3e416",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/NTN_wifi.cfg",
+      "bytes": 96,
+      "sha256": "e30582f0d139069ca24dbf30e0dce7f41045a889c59f3f8a1772722cd6cfb12a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/soc3_0_ram_mcu_e1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "83fd95934b74b2cff9a44377ac78e9d83aa60e3b00ffea1fd09f300a67b9ed95",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/mt6631_fm_v1_coeff.bin",
+      "bytes": 1092,
+      "sha256": "d32f4a16b35f950ed1a57f2ae88f77ac4b5674d5c4210b65f6fe7912901fd8db",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/gt9886_firmware_6853v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/FRL5G_wifi.cfg",
+      "bytes": 94,
+      "sha256": "e0f2b92ce4f7743a707766771321728318bc3d2ff4d57af9a1a4db4fa4a8014d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-vendor/lib/firmware/BT_FW.cfg",
+      "bytes": 410,
+      "sha256": "e018d7b8153af454d7e5c51626d584582904ffc5ba2bd8edb5d2a1ed27124b67",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/bin/linker64",
+      "bytes": 1621560,
+      "sha256": "357df28ba3fd515369e6d4d881294a783725b79bb5d9761537f46b8da7d6b448",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/lib64/bionic/libcutils.so",
+      "bytes": 82792,
+      "sha256": "2fe18ff8f6f6af3e6c02ea3ebf8d610bc82166c9d5235dfd0e96af6cc4a0416c",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/lib64/bionic/ld-android.so",
+      "bytes": 9624,
+      "sha256": "e78d947d12322158b7b9654a1ba7e56abafefd0f51bbf9798e798dbb1d2a9faf",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/lib64/bionic/libc++.so",
+      "bytes": 841864,
+      "sha256": "3774489cb50c39056582a19f1608a618949ae52ae2d22d7d3fda03e4c43144dc",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/lib64/bionic/libdl.so",
+      "bytes": 14016,
+      "sha256": "81760ef41a6b6ae91101ed98a77e6bc0d9d589d07342ddd7f51cc80908699bb4",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/lib64/bionic/liblog.so",
+      "bytes": 105968,
+      "sha256": "9e7326dbe9bc70e18def7938571b2545f09e44af527675aebc840df5805b47e5",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/lib64/bionic/libbase.so",
+      "bytes": 83552,
+      "sha256": "b09442d19f7f838047cc7f6eb84c6e6b84d330fc221dd535e9b00929cbc6251a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/lib64/bionic/libm.so",
+      "bytes": 229360,
+      "sha256": "57391f1ac0850c6d6dbe7100dc48c596c90f7d194361ed9a2b952754cd9c8f0e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "opt/frl-touch-vendor/apex/com.android.runtime/lib64/bionic/libc.so",
+      "bytes": 1136552,
+      "sha256": "14007af8d69756469b257ddcf933f3cd2324b19128dd985ae9d446870ab57f4b",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_cfg_90hz6885.bin",
+      "bytes": 1005,
+      "sha256": "f591c97a0a411a871724caf264fb918107c518beaaf5640dd3864915129561a2",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc2_0_ram_bt_3d_1_hdr.bin",
+      "bytes": 734044,
+      "sha256": "406baaa0b235d136530958246f66b234f40b63e0b6b102ecd1c061d2b015702d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_cfg_6853v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc2_0_ram_bt_3c_1_hdr.bin",
+      "bytes": 732924,
+      "sha256": "ca9bc386abdb2511541126230a65ecd17553eefd2f1aae0e8133c3633010987e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/YOR_txpowerctrl.cfg",
+      "bytes": 155,
+      "sha256": "30701499a94526c912ae145c17e47df26cb686cef78636dd5bc95b7e0d1bafe8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9896s_cfg_6893v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_firmware_6885b0.bin",
+      "bytes": 88320,
+      "sha256": "51c67e5c11327ba6edc1cd1ee61d784b2982deee1908a928b288574a622d9ed0",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/WIFI_RAM_CODE_soc2_0_3d_1.bin",
+      "bytes": 751384,
+      "sha256": "2cd9c764918b14da34989775e22d1f770e033965fbf0c7b27a7c5ed9e72f889b",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9896s_firmware_6873v00.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/FT_txpowerctrl.cfg",
+      "bytes": 203,
+      "sha256": "d77e1d6388a96cccd64a28214ff71bd66d380055e75e1f35917030f8d294aab0",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9896s_firmware_6853v01.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/KKG_txpowerctrl.cfg",
+      "bytes": 180,
+      "sha256": "3b791c722a552ecbd34c8433fb4d359b3853d2480bcc1894b57f848cd1c45f0f",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc3_0_ram_mcu_1b_1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "a0994af83dee2b82361e4ee3d9ba8634c77b94ef6f4515ad2f2121d1f1beee8e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/fm_cust.cfg",
+      "bytes": 304,
+      "sha256": "0f24efadab3d3e8286774cb50495f65d26ed96b280d9d684f54fdd1d4f6c72d7",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/mt6635_fm_v1_coeff.bin",
+      "bytes": 1092,
+      "sha256": "d32f4a16b35f950ed1a57f2ae88f77ac4b5674d5c4210b65f6fe7912901fd8db",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc2_0_ram_wifi_3d_1_hdr.bin",
+      "bytes": 249124,
+      "sha256": "21e1a96b65d3b13c150a2ba56a7f6e86c0e3aaef345863879fb2583ed3ed2aae",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc2_0_ram_wifi_3c_1_hdr.bin",
+      "bytes": 249932,
+      "sha256": "4b82e7f5a0736ce286dfcbd5ef7865e614e7f26a7e99cb081848ee51483874b8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt1151_default_firmware2.img",
+      "bytes": 63616,
+      "sha256": "d2a6e1c2e1e350d940fad41991900fcfc4c81b3e786068560fe4f554602c3688",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/DM_txpowerctrl.cfg",
+      "bytes": 178,
+      "sha256": "1f9e53f1de41491d561d28c451de2dee01487254c825ec170d9155a133b8059b",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/WMT_SOC.cfg",
+      "bytes": 195,
+      "sha256": "8ecfca7e20571f81397e32d91014dc9ee796caa9ab4ee9e11d5ba2c2aae81f01",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/CND5G_wifi.cfg",
+      "bytes": 96,
+      "sha256": "85bc14032f769cec92bf4f95f7e47efc0045749c2bacf45e482afbe92caabc9e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_cfg_6885v9c.bin",
+      "bytes": 873,
+      "sha256": "77a03b31926fb57191be17822a4534f5d8ddae10b192d20830202b3c6cbf3aba",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/TCXOWMT_SOC.cfg",
+      "bytes": 195,
+      "sha256": "86b2cd2ba75e7fbe9e4178979bd470ac69fb9e47abe15f04f6424845c986f65e",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/ALA5G_wifi.cfg",
+      "bytes": 112,
+      "sha256": "aedc40981a064c8be09164a20abb80c3769ad86b5e72809eebb0e6f9d310415d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/WN_txpowerctrl.cfg",
+      "bytes": 178,
+      "sha256": "da716d95067b03abaea2eb9bf6c272bb51060b40c3292e4853c758616f74184d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/default_txpowerctrl.cfg",
+      "bytes": 46,
+      "sha256": "af88c9f8a2ef8587e77f41502149a40a2a556c2ea38ed58a47d6aa542db99a97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/JSC5G_wifi.cfg",
+      "bytes": 96,
+      "sha256": "2022a69a2dadad0a967829df3125f755c6af056837b1dc775f0259327878387c",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_cfg_6785v99.bin",
+      "bytes": 873,
+      "sha256": "5c14a8a09801710be55b04a01dde4666567b7c22d8a2d5eb1393b973d362ad89",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/WIFI_RAM_CODE_soc2_0_3c_1.bin",
+      "bytes": 760568,
+      "sha256": "4e2b75e0c6707e88d2835a8cdca88b700e1ba3011040b8fe32d56d38a51a6039",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_firmware_6893v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/mt6631_fm_v1_patch.bin",
+      "bytes": 1028,
+      "sha256": "ba35c74d26660729caf83b41a567e700f633b6c99384dfa6cbb3c17ceb767e26",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/TT_txpowerctrl.cfg",
+      "bytes": 125,
+      "sha256": "f734aa3d5c089ab410f0ffdcd734f1a09d1e244e67ace8890316a49e11996853",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9896s_cfg_6873v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_cfg_6893v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_cfg_6885v1.bin",
+      "bytes": 873,
+      "sha256": "26754767372ff7c68a22f768546a4369b834910f69f86329e5ecfbee5e998545",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/NTO_wifi.cfg",
+      "bytes": 96,
+      "sha256": "e30582f0d139069ca24dbf30e0dce7f41045a889c59f3f8a1772722cd6cfb12a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_firmware_6885a1.bin",
+      "bytes": 88320,
+      "sha256": "c8957f0d8ff98950ae4f29b1852b131c18aa5f6993daa9a2d2b125c95ec7c5a8",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_cfg_6885v01.bin",
+      "bytes": 889,
+      "sha256": "02006a546fc9d5ef3a1011b36bd19f6fa23e585ad81e3af0ab701d2716c8be97",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc2_0_patch_mcu_3d_1_hdr.bin",
+      "bytes": 19982,
+      "sha256": "b1529e7ebd0cfeb237d2969c7514ec1e4ed9834c7c2f877307c2ce0f36e94cc9",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_cfg_gt9885v1.bin",
+      "bytes": 923,
+      "sha256": "d7ed5b81da7dca7f4116051a634b10da357de632f75d656464d0dc758e1dbf22",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/NTO_5G_txpowerctrl.cfg",
+      "bytes": 44,
+      "sha256": "872452282ee8fafdf55a5f2fc3a3a265c665d22fafa568e51af423a17a5c6522",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/NTN_5G_txpowerctrl.cfg",
+      "bytes": 46,
+      "sha256": "85325310bc6fa35efa13120a2b194040e9394919099ea1b877f0791eb3f63bca",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_firmware_6885v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/WMT_STEP.cfg",
+      "bytes": 67652,
+      "sha256": "3f11d79c41dccd7693871876b57f3d628aea79e84d1594521227072a8fd1f250",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc2_0_patch_mcu_3c_1_hdr.bin",
+      "bytes": 17374,
+      "sha256": "3ef8c7e19ba926d4853fba971517835a728662b28b0d2787e8c5a9597c6a1685",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc2_0_ram_mcu_3c_1_hdr.bin",
+      "bytes": 90460,
+      "sha256": "36388eb69f9465a597bc65f4aa90fb5231804e61809a736b1afa5ea023a9d546",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9896s_cfg_6853v01.bin",
+      "bytes": 1502,
+      "sha256": "bd8352f4966feff4384405a621573c62c311298de62f2bb00f8eb528d2c8c232",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_firmware_6885af.bin",
+      "bytes": 88320,
+      "sha256": "7a271e1f681193fc9854a3608638b0f7f444d00bcca6a4ef15f383853f71b760",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/TS_txpowerctrl.cfg",
+      "bytes": 125,
+      "sha256": "f734aa3d5c089ab410f0ffdcd734f1a09d1e244e67ace8890316a49e11996853",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_firmware_6885b1.bin",
+      "bytes": 88320,
+      "sha256": "f4b56f7908775b352bb06df18d8aed2d18377e3297e2242eff108830a761763d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_firmware_6785ae.bin",
+      "bytes": 88320,
+      "sha256": "4dee9ecbcbacbb3965c3e8cf2b01dd975ce9ed370f5c71eac9e7d2d5666d2840",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/mt6635_fm_v1_patch.bin",
+      "bytes": 1028,
+      "sha256": "ba35c74d26660729caf83b41a567e700f633b6c99384dfa6cbb3c17ceb767e26",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9896s_firmware_6893v01.bin",
+      "bytes": 88320,
+      "sha256": "0429b111b58151f003f4b12c475565629b7612011fbb334f71c912d93a29c34a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/CHL_5G_txpowerctrl.cfg",
+      "bytes": 1163,
+      "sha256": "91eca528cfc82e5d3336c4687ace584ed3bd079eadbd3881664721abfa55a661",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc3_0_ram_bt_1b_1_hdr.bin",
+      "bytes": 668640,
+      "sha256": "eb71cba075b9f2d3e494d23c81144c36e2542f0f0cd3be19355eae3d0c7bdb1d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc3_0_ram_bt_1_1_hdr.bin",
+      "bytes": 668496,
+      "sha256": "6e083c3e418447e26158de91f17c7757986c5f4d1433fa9a6b8f6c97ee074101",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc3_0_ram_mcu_1_1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "83fd95934b74b2cff9a44377ac78e9d83aa60e3b00ffea1fd09f300a67b9ed95",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc2_0_ram_mcu_3d_1_hdr.bin",
+      "bytes": 89980,
+      "sha256": "9b00b982a8c1c7ab357a9bb2985d7f69210a9c892caba972555de77b5ab3e416",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/NTN_wifi.cfg",
+      "bytes": 96,
+      "sha256": "e30582f0d139069ca24dbf30e0dce7f41045a889c59f3f8a1772722cd6cfb12a",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/soc3_0_ram_mcu_e1_hdr.bin",
+      "bytes": 165024,
+      "sha256": "83fd95934b74b2cff9a44377ac78e9d83aa60e3b00ffea1fd09f300a67b9ed95",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/mt6631_fm_v1_coeff.bin",
+      "bytes": 1092,
+      "sha256": "d32f4a16b35f950ed1a57f2ae88f77ac4b5674d5c4210b65f6fe7912901fd8db",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/gt9886_firmware_6853v01.bin",
+      "bytes": 88320,
+      "sha256": "340d03abbf1eee9ebea8d86d5368c47271a591d268aa2428598b57af9dff257d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/FRL5G_wifi.cfg",
+      "bytes": 94,
+      "sha256": "e0f2b92ce4f7743a707766771321728318bc3d2ff4d57af9a1a4db4fa4a8014d",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    },
+    {
+      "path": "usr/lib/firmware/BT_FW.cfg",
+      "bytes": 410,
+      "sha256": "e018d7b8153af454d7e5c51626d584582904ffc5ba2bd8edb5d2a1ed27124b67",
+      "origin": "Existing FRL system provided by repository owner; stock-derived runtime/firmware, except original FRL property bridges",
+      "license_expression": "NOASSERTION",
+      "not_covered_by_project_MIT": true
+    }
+  ],
+  "vendor_notice": "Retained original binary runtime/firmware from the owner-provided system. Copyright belongs to original authors. This inventory is not an independent authorization to redistribute vendor components, and does not relicense them as MIT.",
+  "linux_kernel_in_this_rootfs": false,
+  "busybox_and_static_glibc_sources_asset": "third-party-busybox-glibc-sources.zip",
+  "custom_binary_rebuild_performed": false
+}

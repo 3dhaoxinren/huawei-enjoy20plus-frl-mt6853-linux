@@ -17,8 +17,9 @@
 - [图形化系统导出工具](tools/exporter/README.md)：在另一台电脑提取当前系统，供净化和重建 rootfs；不是刷机工具。
 - [首次发布范围](docs/PUBLICATION.md)
 - [第三方组件](THIRD_PARTY_NOTICES.md)
+- [2026.11.02 系统镜像与配套说明](docs/ROOTFS-20261102.md)
 
-**本机项目已有可在 Bootloader 解锁后直接刷写的移植版本。** 当前 GitHub Releases 已上传两份启动镜像、源码压缩包及校验清单；完整新版 rootfs 仍待上传。请区分本机完整移植环境与当前已公开的附件范围，下载时以 Release 清单和配套说明为准。
+**本机项目已有可在 Bootloader 解锁后直接刷写的移植版本。** 2026.11.02 系统镜像 Release 整理了从当前系统净化重建的 4 GiB rootfs、成套标志、配套启动附件、第三方版权和源码材料。请按[本次说明](docs/ROOTFS-20261102.md)核对文件与固件前置条件；rootfs 是 userdata 内的文件，不是可直接刷到 userdata 分区的固件镜像。原机真机结果与本次离线验证分别记录。
 
 ## 已整理源码
 
