@@ -1,0 +1,179 @@
+{
+  "images": [
+    {
+      "filename": "frl-native-v15-serial-fd-ramdisk.img",
+      "sha256": "e652894be6aa5c87a46b783e075d50f92f8ede1fdf6d3830e79b4889fb36ccf1",
+      "bytes": 2097152,
+      "kernel_bytes": 0,
+      "cpio_sha256": "d254551e24f13d2203f2ceffd413c54d493abd8d3c06a0c2b1a49cf0641ce680",
+      "original_unchanged": true
+    },
+    {
+      "filename": "frl-native-v15-serial-fd-recovery_ramdisk.img",
+      "sha256": "e9c6c618495073605781057cdaeb3cbd6061f3be3941b8a9e60a32deaf7a4370",
+      "bytes": 33554432,
+      "kernel_bytes": 0,
+      "cpio_sha256": "d254551e24f13d2203f2ceffd413c54d493abd8d3c06a0c2b1a49cf0641ce680",
+      "original_unchanged": true
+    }
+  ],
+  "cpio_entries": [
+    {
+      "path": "dev",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etc",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "newroot",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "proc",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "root",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "run",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sys",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tmp",
+      "bytes": 0,
+      "mode": "0o41777",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "usr",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etc/frl",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "usr/lib",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "usr/lib/frl",
+      "bytes": 0,
+      "mode": "0o40755",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "etc/frl/allow-bcb-clear",
+      "bytes": 30,
+      "mode": "0o100600",
+      "sha256": "392a44350ddff6aaeaef22c1e9c4dfd027a502c40c1961301f71f5c7d54ca59b"
+    },
+    {
+      "path": "init",
+      "bytes": 853480,
+      "mode": "0o100755",
+      "sha256": "10ba2a62c070cd4a7fc494b74c40ff5820917efda3dc95998d14bba166f485c3"
+    },
+    {
+      "path": "usr/lib/frl/bootstrap-v15.sh",
+      "bytes": 5262,
+      "mode": "0o100755",
+      "sha256": "99fbea84ede0802ffc204e63248230dbd0a02ff65fa7ad226d04f4da1cfc8798"
+    },
+    {
+      "path": "usr/lib/frl/busybox",
+      "bytes": 1981032,
+      "mode": "0o100755",
+      "sha256": "c2f279d1d5640a0f327890d41cad594c0f059f3fed3f96dd72fdcc4f5e18ec02"
+    },
+    {
+      "path": "usr/lib/frl/rootfs-check",
+      "bytes": 705880,
+      "mode": "0o100755",
+      "sha256": "5dc14554bb5c09e06f95808312a885fc3d2efae77a16364673527491a3ec7cef"
+    },
+    {
+      "path": "usr/lib/frl/serial-console.sh",
+      "bytes": 861,
+      "mode": "0o100755",
+      "sha256": "d2fef157dbe2f3cb1f324b436d6ac80082da0806bc6b9b4244b4211baf636148"
+    },
+    {
+      "path": "usr/lib/frl/serial-session.sh",
+      "bytes": 375,
+      "mode": "0o100755",
+      "sha256": "3289a06669b0e8d04c8f458a0b2a7499b264e5d31a1b7019282c4f296432b331"
+    },
+    {
+      "path": "usr/lib/frl/storage-rw-policy.sh",
+      "bytes": 1124,
+      "mode": "0o100755",
+      "sha256": "1ac3a19cf5e16396a3b84d987ab3b6c4e7bc228600cbd66b99453028526a0816"
+    },
+    {
+      "path": "usr/lib/frl/usb-acm.sh",
+      "bytes": 1107,
+      "mode": "0o100755",
+      "sha256": "a4c01b3274f88b3ad21da9ff2ec709fd1c50c9c8b33f52220f26d4fec25c0f70"
+    },
+    {
+      "path": "usr/lib/frl/serial-session",
+      "bytes": 663432,
+      "mode": "0o100755",
+      "sha256": "db1f48e821d1cca3c4c4300cdafde824739c85f86266486b5bb7a4e06f1079e0"
+    },
+    {
+      "path": "usr/lib/frl/serial-update-manifest.json",
+      "bytes": 816,
+      "mode": "0o100644",
+      "sha256": "d0b092b1c612b2d915ac1223398fdd92c6fa8b907f6205bb71a1aa44a11a491e"
+    },
+    {
+      "path": "usr/lib/frl/stage-serial-root-update.py",
+      "bytes": 11276,
+      "mode": "0o100755",
+      "sha256": "b13a4a017f7f8dacc8582d965aafb8f979dd00f1b14340c834a90ad7c6fb23a5"
+    }
+  ],
+  "sensitive_patterns_detected": false,
+  "matching_cpio": true,
+  "scripts_extracted_from_actual_images": [
+    "usr/lib/frl/bootstrap-v15.sh",
+    "usr/lib/frl/serial-console.sh",
+    "usr/lib/frl/serial-session.sh",
+    "usr/lib/frl/storage-rw-policy.sh",
+    "usr/lib/frl/usb-acm.sh",
+    "usr/lib/frl/serial-update-manifest.json",
+    "usr/lib/frl/stage-serial-root-update.py"
+  ],
+  "busybox_sha256": "c2f279d1d5640a0f327890d41cad594c0f059f3fed3f96dd72fdcc4f5e18ec02",
+  "scope": "name/secret-pattern inspection; not a new boot test"
+}

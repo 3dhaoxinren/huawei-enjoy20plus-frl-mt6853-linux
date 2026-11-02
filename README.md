@@ -27,6 +27,7 @@
 | `power-terminal/` | 电源键、自动熄屏、唤醒、终端/显示切换 |
 | `server/` | 服务管理、应用管理、备份、网络恢复、健康检查及测试 |
 | `integration/` | root-boot、root-shutdown、runit 服务入口 |
+| `boot/` | 历史 v15 serial-fd 启动源码、实际镜像内脚本及镜像清单 |
 | `release-tools/` | bundle.py 与带校验/回退保护的 deploy.py |
 | `historical-tests/` | 已被无级亮度滑条取代的旧版测试，不属于当前回归套件 |
 

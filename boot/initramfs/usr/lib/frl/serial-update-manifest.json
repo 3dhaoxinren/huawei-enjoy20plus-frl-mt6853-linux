@@ -1,0 +1,20 @@
+{
+  "usr/lib/frl/serial-console.sh": {
+    "source_basename": "serial-console.sh",
+    "old_sha256": "d2fef157dbe2f3cb1f324b436d6ac80082da0806bc6b9b4244b4211baf636148",
+    "sha256": "d2fef157dbe2f3cb1f324b436d6ac80082da0806bc6b9b4244b4211baf636148",
+    "mode": "0755"
+  },
+  "usr/lib/frl/serial-session.sh": {
+    "source_basename": "serial-session.sh",
+    "old_sha256": "3289a06669b0e8d04c8f458a0b2a7499b264e5d31a1b7019282c4f296432b331",
+    "sha256": "3289a06669b0e8d04c8f458a0b2a7499b264e5d31a1b7019282c4f296432b331",
+    "mode": "0755"
+  },
+  "usr/lib/frl/serial-session": {
+    "source_basename": "serial-session",
+    "old_sha256": "1a7de80a9c1262421792658045995af9ff77625b2638ac83e881ef85cd5d8fda",
+    "sha256": "db1f48e821d1cca3c4c4300cdafde824739c85f86266486b5bb7a4e06f1079e0",
+    "mode": "0755"
+  }
+}
