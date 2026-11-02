@@ -14,7 +14,6 @@
 - [发布工具与启动校验](docs/DEPLOYMENT.md)
 - [显示接管与释放](docs/DISPLAY-LIFECYCLE.md)
 - [测试方法](docs/TESTING.md)
-- [图形化系统导出工具](tools/exporter/README.md)：在另一台电脑提取当前系统，供净化和重建 rootfs；不是刷机工具。
 - [首次发布范围](docs/PUBLICATION.md)
 - [第三方组件](THIRD_PARTY_NOTICES.md)
 - [2026.11.02 系统镜像与配套说明](docs/ROOTFS-20261102.md)
