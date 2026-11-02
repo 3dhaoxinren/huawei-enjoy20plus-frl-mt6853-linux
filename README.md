@@ -1,2 +1,7 @@
-# frl-mt6853-linux
-Huawei FRL / MT6853 native Linux port: source, porting notes and reviewed release artifacts. Experimental.
+# 华为畅享 20 Plus 原生 Linux 移植
+
+Huawei Enjoy 20 Plus · FRL / MT6853
+
+华为畅享 20 Plus（FRL / MT6853）原生 Linux 移植项目，用于整理源码、移植思路与经审查的镜像。
+
+当前处于实验性整理阶段，镜像与完整移植文档尚未发布，请勿将仓库视为可直接刷入的稳定发行版。
