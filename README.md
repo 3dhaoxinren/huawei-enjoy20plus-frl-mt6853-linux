@@ -1,6 +1,6 @@
 # 华为畅享 20 Plus 原生 Linux 移植
 
-**Huawei Enjoy 20 Plus · FRL / MT6853 · 实验性项目**
+**Huawei Enjoy 20 Plus · FRL / MT6853 · 原生 Linux 与 GPU 服务器面板**
 
 在华为畅享 20 Plus 上复用厂商内核与必要硬件运行时，运行原生 ARM64 Linux、轻量服务器管理功能和 Mali GPU 加速本地监控面板。不是 Android 内的 proot 桌面，也不是适配所有 MT6853 手机的通刷 ROM。
 
@@ -15,7 +15,7 @@
 - [首次发布范围](docs/PUBLICATION.md)
 - [第三方组件](THIRD_PARTY_NOTICES.md)
 
-**这不是可以直接刷入的完整稳定发行版。** 当前公开的是源码快照与单独审查的附件，完整新版 rootfs 仍待整理。用户在手动修改启动文件后报告了 payload 校验失败和 `AssertionError: active framebuffer exists`；本次公开整理没有声称已修复这些问题。
+**本机项目已有可直接刷写的移植版本。** 当前 GitHub Releases 已上传两份启动镜像、源码压缩包及校验清单；完整新版 rootfs 仍待上传。请区分本机完整移植环境与当前已公开的附件范围，下载时以 Release 清单和配套说明为准。
 
 ## 已整理源码
 
@@ -38,3 +38,7 @@
 历史真机已验证 GPU 界面显示/触摸、熄屏唤醒、Wi-Fi 快捷入口与缓存列表、6600 满量程亮度滑条。静态页面按需绘制，GPU 利用率为 0% 或休眠并不等于使用 CPU 软件渲染。
 
 首次公开整理在 WSL Linux 上通过 **172 项当前面板测试 + 36 项服务器测试**；这些是离线逻辑测试，不是本次真机冷启动或显示接管成功记录。
+
+## 许可证
+
+自研移植代码及文档采用 [MIT](LICENSE)，欢迎修改、复用和贡献。Linux、BusyBox、厂商驱动等第三方部分保留各自许可证，详见 [第三方说明](THIRD_PARTY_NOTICES.md)。
