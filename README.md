@@ -1,7 +1,39 @@
 # 华为畅享 20 Plus 原生 Linux 移植
 
-Huawei Enjoy 20 Plus · FRL / MT6853
+**Huawei Enjoy 20 Plus · FRL / MT6853 · 实验性项目**
 
-华为畅享 20 Plus（FRL / MT6853）原生 Linux 移植项目，用于整理源码、移植思路与经审查的镜像。
+在华为畅享 20 Plus 上复用厂商内核与必要硬件运行时，运行原生 ARM64 Linux、轻量服务器管理功能和 Mali GPU 加速本地监控面板。不是 Android 内的 proot 桌面，也不是适配所有 MT6853 手机的通刷 ROM。
 
-当前处于实验性整理阶段，镜像与完整移植文档尚未发布，请勿将仓库视为可直接刷入的稳定发行版。
+## 下载与阅读
+
+- [发布附件 / Releases](https://github.com/3dhaoxinren/huawei-enjoy20plus-frl-mt6853-linux/releases)：已上传的镜像和源码包以附件清单为准。
+- [移植思路](docs/PORTING.md)
+- [功能状态与缺项](docs/STATUS.md)
+- [发布工具与启动校验](docs/DEPLOYMENT.md)
+- [显示接管与释放](docs/DISPLAY-LIFECYCLE.md)
+- [测试方法](docs/TESTING.md)
+- [首次发布范围](docs/PUBLICATION.md)
+- [第三方组件](THIRD_PARTY_NOTICES.md)
+
+**这不是可以直接刷入的完整稳定发行版。** 当前公开的是源码快照与单独审查的附件，完整新版 rootfs 仍待整理。用户在手动修改启动文件后报告了 payload 校验失败和 `AssertionError: active framebuffer exists`；本次公开整理没有声称已修复这些问题。
+
+## 已整理源码
+
+| 目录 | 内容 |
+| --- | --- |
+| `gpu-monitor/` | 浅色 GPU 面板、CPU/GPU/内存详情、进程操作、Wi-Fi、亮度滑条、测试 |
+| `gpu-native/` | Mali GLES renderer 与 DMA-BUF 探测源码；原构建脚本尚有本地依赖路径 |
+| `gpu-bridge/` | 独立 RAM 运行环境及挂载身份校验 |
+| `power-terminal/` | 电源键、自动熄屏、唤醒、终端/显示切换 |
+| `server/` | 服务管理、应用管理、备份、网络恢复、健康检查及测试 |
+| `integration/` | root-boot、root-shutdown、runit 服务入口 |
+| `release-tools/` | bundle.py 与带校验/回退保护的 deploy.py |
+| `historical-tests/` | 已被无级亮度滑条取代的旧版测试，不属于当前回归套件 |
+
+依赖目标手机自己的兼容厂商分区、GPU/Bionic 运行时和其他底层适配模块；仅克隆仓库不能完整启动设备。不要删除校验断言以绕过这些条件。
+
+## 简要状态
+
+历史真机已验证 GPU 界面显示/触摸、熄屏唤醒、Wi-Fi 快捷入口与缓存列表、6600 满量程亮度滑条。静态页面按需绘制，GPU 利用率为 0% 或休眠并不等于使用 CPU 软件渲染。
+
+首次公开整理在 WSL Linux 上通过 **172 项当前面板测试 + 36 项服务器测试**；这些是离线逻辑测试，不是本次真机冷启动或显示接管成功记录。

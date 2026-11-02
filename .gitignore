@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+build/
+.venv/
+*.img
+*.ext4
+*.ext4.gz
+private-audit/

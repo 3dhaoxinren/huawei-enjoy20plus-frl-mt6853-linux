@@ -1,0 +1,25 @@
+#!/bin/sh
+set -eu
+exec 2>&1
+export PATH=/usr/sbin:/usr/bin:/sbin:/bin
+if [ "$(cat /etc/frl/runtime-mode 2>/dev/null || echo desktop)" = server ]; then
+    exec /usr/bin/python3 -B /usr/lib/frl/gpu-monitor/monitor.py
+fi
+for tick in $(seq 1 30); do
+    [ -S /run/udev/control ] && [ -S /run/seatd.sock ] && break
+    sleep 1
+done
+[ -S /run/udev/control ] && [ -S /run/seatd.sock ]
+# Device discovery must happen after udev is listening. Repeated add is safe.
+udevadm trigger --action=add --subsystem-match=drm
+udevadm trigger --action=add --subsystem-match=input
+udevadm settle --timeout=10
+install -d -m 0700 -o frl -g frl /run/user/1000
+install -d -m 0700 -o frl -g frl /home/frl/.local/state
+export HOME=/home/frl USER=frl LOGNAME=frl
+export XDG_RUNTIME_DIR=/run/user/1000
+export LIBSEAT_BACKEND=seatd
+export WAYLAND_DISPLAY=wayland-0
+export XDG_SESSION_TYPE=wayland
+export FRL_RUNTIME_MODE="$(cat /etc/frl/runtime-mode 2>/dev/null || echo desktop)"
+exec /usr/local/sbin/frl-performance exec-desktop -- /usr/bin/weston --backend=drm --renderer=pixman --drm-device=card0 --seat=seat0 --socket=wayland-0 --idle-time=0 --continue-without-input --config=/etc/frl/weston.ini
